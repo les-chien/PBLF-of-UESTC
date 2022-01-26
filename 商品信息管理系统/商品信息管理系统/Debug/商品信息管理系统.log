@@ -1,0 +1,4 @@
+﻿  商品信息管理系统.c
+C:\Users\33914\source\repos\商品信息管理系统\商品信息管理系统\商品信息管理系统.c(258): warning C4715: “check_username”: 不是所有的控件路径都返回值
+C:\Users\33914\source\repos\商品信息管理系统\商品信息管理系统\商品信息管理系统.c(413): warning C4715: “login_in”: 不是所有的控件路径都返回值
+  商品信息管理系统.vcxproj -> C:\Users\33914\source\repos\商品信息管理系统\Debug\商品信息管理系统.exe
