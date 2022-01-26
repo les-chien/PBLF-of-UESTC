@@ -667,7 +667,7 @@ J:
 		}
 
 		fclose(people);
-		system("C:/Users/33914/source/repos/软件界面/软件界面/商品信息.txt");
+		//system("C:/Users/33914/source/repos/软件界面/软件界面/商品信息.txt");
 
 		if (fopen_s(&people, FRIENDLY_FILENAME, "w+") != 0)
 		{
@@ -1148,6 +1148,8 @@ void save()
 		fprintf(people, "商品库存为：%s\n", p->data.commodities_remain);
 		fprintf(people, "\n");
 	}
+
+	delete_all_content();
 
 	fclose(fp);
 	fclose(people);
